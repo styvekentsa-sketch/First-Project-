@@ -1,0 +1,273 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEF TRADING - Accueil</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">FEF TRADING</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <button id="toggle-theme" class="theme-btn">🌙</button>
+    </nav>
+    <div class="menu-icon" id="menu-icon">☰</div>
+  </header>
+
+  <section class="hero fade-in">
+    <h1>Transfert d'argent rapide, sécurisé et fiable</h1>
+    <p>Envoyez et recevez de l'argent en toute simplicité.</p>
+    <a href="services.html" class="btn">Voir nos services</a>
+  </section>
+
+  <footer>
+    <p>© 2025 FEF TRADING | Transfert d'argent</p>
+  </footer>
+</body>
+</html>
+
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEF TRADING - Services</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">FEF TRADING</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <button id="toggle-theme" class="theme-btn">🌙</button>
+    </nav>
+    <div class="menu-icon" id="menu-icon">☰</div>
+  </header>
+
+  <section class="content fade-in">
+    <h2>Nos Services</h2>
+    <div class="service-cards">
+      <div class="card">Transfert d'argent national</div>
+      <div class="card">Transfert international</div>
+      <div class="card">Transactions rapides</div>
+      <div class="card">Sécurité garantie</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FEF TRADING | Services</p>
+  </footer>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEF TRADING - À propos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">FEF TRADING</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <button id="toggle-theme" class="theme-btn">🌙</button>
+    </nav>
+    <div class="menu-icon" id="menu-icon">☰</div>
+  </header>
+
+  <section class="content fade-in">
+    <h2>À propos de FEF TRADING</h2>
+    <p>FEF TRADING est une entreprise spécialisée dans le transfert d'argent, offrant des solutions modernes, sécurisées et rapides pour tous.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 FEF TRADING | À propos</p>
+  </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FEF TRADING - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">FEF TRADING</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <button id="toggle-theme" class="theme-btn">🌙</button>
+    </nav>
+    <div class="menu-icon" id="menu-icon">☰</div>
+  </header>
+
+  <section class="content fade-in">
+    <h2>Contactez-nous</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+
+    <p>Téléphone : 677794269 / 652218098</p>
+    <p>Email : styvekentsa@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 FEF TRADING | Contact</p>
+  </footer>
+</body>
+</html>
+
+<!-- styles.css -->
+:root {
+  --bg: #111;
+  --text: #eee;
+  --accent: #00eaff;
+  --card-bg: #222;
+}
+body.light {
+  --bg: #fff;
+  --text: #111;
+  --card-bg: #ddd;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+}
+header {
+  background: var(--card-bg);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--accent);
+}
+nav a {
+  color: var(--text);
+  margin-left: 20px;
+  text-decoration: none;
+}
+.menu-icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+.theme-btn {
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--text);
+}
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, var(--accent), #0066ff);
+  color: #000;
+}
+.btn {
+  padding: 10px 20px;
+  background: #000;
+  color: var(--accent);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.content { padding: 40px; }
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--card-bg);
+}
+.fade-in {
+  animation: fade 1s ease-in-out;
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive */
+@media(max-width: 700px) {
+  nav.nav-links {
+    display: none;
+    flex-direction: column;
+    background: var(--card-bg);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 20px;
+  }
+  .menu-icon { display: block; }
+}
+
+<!-- script.js -->
+document.getElementById('menu-icon').onclick = () => {
+  const nav = document.getElementById('nav-links');
+  nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+};
+
+document.getElementById('toggle-theme').onclick = () => {
+  document.body.classList.toggle('light');
+};
+
+
+<!-- Everything has been added! 🚀✨
+Your website now includes:
+
+✔ Light/Dark mode
+✔ Mobile responsive menu
+✔ Animations
+✔ Improved modern design
+✔ Service cards
+✔ Contact form
+✔ Footer for all pages
+✔ Full updated HTML/CSS/JS
+
+If you want next, I can also:
+
+💠 Add your logo
+💠 Add a money transfer form
+💠 Add animations on scroll
+💠 Make the site 100% professional
+💠 Package everything into a ZIP file ready to upload
+💠 Host it online (I can guide you)
+
+Tell me what you want! -->
